@@ -15,4 +15,4 @@ Trabajo con Bootstrap
 ## Presidente: 
 D. Alejandro Guzman Lozano 
 ## Secretario: 
-Juan Carlos Mendoza Gutierrez
+Reynel Orlando Villca Hurtado
