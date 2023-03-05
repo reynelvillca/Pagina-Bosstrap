@@ -13,6 +13,7 @@ Trabajo con Bootstrap
 * Erik Vladimir Huallpa Aruquipa 
 
 ## Presidente: 
-D. Alejandro Guzman Lozano 
-## Secretario: 
 Reynel Orlando Villca Hurtado
+## Secretario: 
+Erik Vladimir Huallpa Aruquipa 
+
