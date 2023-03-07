@@ -13,7 +13,7 @@ Trabajo con Bootstrap
 * Erik Vladimir Huallpa Aruquipa 
 
 ## Presidente 07-03-23: 
-Juan Carlos Mendoza Gutierrez
+Juan Carlos Mendoza Gutiérrez
 ## Secretario 07-03-23: 
 Reynel Orlando Villca Hurtado
 
