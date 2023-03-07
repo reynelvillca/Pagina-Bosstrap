@@ -12,8 +12,10 @@ Trabajo con Bootstrap
 * Reynel Orlando Villca Hurtado
 * Erik Vladimir Huallpa Aruquipa 
 
-## Presidente: 
+## Presidente 07-03-23: 
+Juan Carlos Mendoza Gutierrez
+## Secretario 07-03-23: 
 Reynel Orlando Villca Hurtado
-## Secretario: 
-Erik Vladimir Huallpa Aruquipa 
 
+## Deploy: 
+https://reynelvillca.github.io/Pagina-Bosstrap/
