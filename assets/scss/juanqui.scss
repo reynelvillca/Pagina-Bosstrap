@@ -1,0 +1,40 @@
+
+$color-1: #c71010;
+$color-2: #f6fa0b;
+$color-3: #005813;
+$color-4: #1a007a;
+
+$tam: 80px;
+
+
+.section-title h2 {
+    margin: 15px 0 0 0;
+    font-size: $tam; /*32px*/
+    font-weight: 700;
+    color: $color-1; /*#5f5950*/
+  }
+
+  .section-title h2 span {
+    color: $color-3;
+  }
+  .specials .details h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: $color-2; /*#433f39*/
+  }
+
+  .specials .nav-link:hover {
+    color: $color-3;
+  }
+  
+  .specials .nav-link.active {
+    color: $color-1;
+    border-color: $color-2;
+  }
+
+  @media (max-width: 992px) {
+    .section-title h2 span {
+      color: $color-4;
+    }
+  }

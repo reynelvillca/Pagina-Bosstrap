@@ -1,0 +1,47 @@
+$color-1: #ffff00;
+$color-2: #0000ff;
+$color-3: #000000;
+$color-4: #ffffff;
+$color-5: #4dff00;
+$tam: 15px;
+
+// .section-title h2 span {
+//     color: $color-2;    
+// }
+
+.menu .menu-ingredients {
+    font-style: italic;
+    font-size: $tam;
+    font-family: "Comic Neue", sans-serif;
+    color: $color-2;
+}
+
+.menu .menu-content a {
+    padding-right: 10px;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: $color-5;
+}
+
+.menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    border: 2px solid $color-2;
+    border-radius: 50px;
+  }
+
+.menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
+  color: $color-4;
+  background: $color-2;
+}
