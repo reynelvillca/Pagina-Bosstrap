@@ -33,4 +33,110 @@
 .menu #menu-flters li.filter-active {
   color: #ffffff;
   background: #0000ff;
+}
+
+@media screen and (max-width: 420px) {
+  .menu .menu-content a {
+    padding-right: 10px;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: blue;
+  }
+  .menu .menu-ingredients {
+    font-style: italic;
+    font-size: 13px;
+    font-family: "Comic Neue", sans-serif;
+    color: blue;
+  }
+  .menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
+    color: #ffffff;
+    background: red;
+  }
+  .menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    border: 2px solid red;
+    border-radius: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu .menu-content a {
+    padding-right: 10px;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: black;
+  }
+  .menu .menu-ingredients {
+    font-style: italic;
+    font-size: 13px;
+    font-family: "Comic Neue", sans-serif;
+    color: black;
+  }
+  .menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
+    color: #ffffff;
+    background: orange;
+  }
+  .menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    border: 2px solid orange;
+    border-radius: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .menu .menu-content a {
+    padding-right: 10px;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: indigo;
+  }
+  .menu .menu-ingredients {
+    font-style: italic;
+    font-size: 13px;
+    font-family: "Comic Neue", sans-serif;
+    color: indigo;
+  }
+  .menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
+    color: #ffffff;
+    background: #0000ff;
+  }
+  .menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    border: 2px solid #0000ff;
+    border-radius: 50px;
+  }
 }/*# sourceMappingURL=erik.css.map */
