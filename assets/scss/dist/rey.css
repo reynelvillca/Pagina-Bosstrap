@@ -6,7 +6,7 @@
 
 .events::before {
   content: "";
-  background-color: rgba(50, 235, 14, 0.8);
+  background-color: rgba(185, 18, 18, 0.548);
   position: absolute;
   top: 0;
   right: 0;
@@ -22,9 +22,20 @@
   position: relative;
 }
 
-@media (min-width: 1024px) {
-  .events {
-    background-attachment: fixed;
+@media (min-width: 390px) {
+  .events.events::before {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@media (min-width: 768px) {
+  .events.events::before {
+    background-color: rgba(10, 6, 235, 0.8);
+    /*background-attachment: fixed;*/
+  }
+}
+@media (min-width: 1440px) {
+  .events.events::before {
+    background-color: rgba(164, 226, 20, 0.8);
   }
 }
 .events .events-carousel {
@@ -63,9 +74,9 @@
 }
 
 .events .event-item ul i {
-  font-size: 80px;
+  font-size: 40px;
   padding-right: 20px;
-  color: #583bff;
+  color: #eae8f5;
 }
 
 .events .event-item p:last-child {
@@ -73,7 +84,7 @@
 }
 
 .events .swiper-pagination {
-  margin-top: 200px;
+  margin-top: 50px;
   position: relative;
 }
 
@@ -85,5 +96,5 @@
 }
 
 .events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #142aaa;
+  background-color: #bce213;
 }
