@@ -23,4 +23,10 @@
 .specials .nav-link.active {
   color: #c71010;
   border-color: #f6fa0b;
+}
+
+@media (max-width: 992px) {
+  .section-title h2 span {
+    color: #1a007a;
+  }
 }/*# sourceMappingURL=juanqui.css.map */
