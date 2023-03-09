@@ -1,3 +1,7 @@
+.specials {
+  overflow: hidden;
+}
+
 .section-title h2 {
   margin: 15px 0 0 0;
   font-size: 80px; /*32px*/
@@ -25,8 +29,18 @@
   border-color: #f6fa0b;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 400px) {
   .section-title h2 span {
     color: #1a007a;
+  }
+}
+@media (max-width: 768px) {
+  .specials {
+    background-image: url(/assets/img/aguayo.jpg);
+  }
+  .section-title h2 span {
+    color: #fafafd;
+    font-size: 0.5 rem;
+    text-align: center;
   }
 }/*# sourceMappingURL=juanqui.css.map */
